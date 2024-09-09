@@ -1,0 +1,10 @@
+name: deluge
+services:
+  deluge:
+    container_name: deluge
+    network_mode: host
+    image: ghcr.io/wybxc/deluge-web:latest
+    volumes:
+      - ./data/config:/config
+      - ./data/downloads:/downloads
+      - ./data/log:/var/log

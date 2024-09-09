@@ -1,0 +1,4 @@
+[submodule "libtorrent"]
+	path = libtorrent
+	url = https://github.com/arvidn/libtorrent.git
+	branch = master
